@@ -9,9 +9,9 @@ public class Main {
       int p=in.nextInt();
       for(int i=p;i<a.length;i+=p){
         if(t==1)
-          a[i-1]=Character.toLowerCase(a[i-1]);
+          a[i]=Character.toLowerCase(a[i]);
         else if(t==2)
-          a[i-1]=Character.toUpperCase(a[i-1]);
+          a[i]=Character.toUpperCase(a[i]);
       }
       for(char i:a)
       System.out.print(i);
